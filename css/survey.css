@@ -1,0 +1,33 @@
+
+.text-center{
+  text-align: center;
+}
+div{
+  font-family: helvetica;
+
+}
+label{
+  font-size: 18px;
+}
+.grid{
+  display: grid;
+  justify-content: center;
+  background-image:
+  linear-gradient(to bottom, rgba(76, 141, 245,0.4), rgba(245, 47, 47,0.4)),
+  url(../images/simage2.jpg);
+}
+form{
+  padding: 40px 40px 40px 40px;
+}
+input{
+  box-shadow:0 0 5px #666 inset;
+  border: none;
+  border-radius:5px;
+}
+input[type="radio"] {
+    box-shadow: 0px 0 0;
+    border-radius: 10px;
+}
+input[type="checkbox"] {
+    box-shadow: 0px 0 0;
+}
